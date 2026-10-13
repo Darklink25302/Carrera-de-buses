@@ -41,7 +41,7 @@ Partial Class FrmBuses
         lblTitulo.ForeColor = Color.Navy
         lblTitulo.Location = New Point(20, 15)
         lblTitulo.Name = "lblTitulo"
-        lblTitulo.Size = New Size(248, 25)
+        lblTitulo.Size = New Size(321, 32)
         lblTitulo.TabIndex = 0
         lblTitulo.Text = "Managua → Estelí · 150 km"
         ' 
@@ -51,7 +51,7 @@ Partial Class FrmBuses
         lblBus1.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         lblBus1.Location = New Point(20, 75)
         lblBus1.Name = "lblBus1"
-        lblBus1.Size = New Size(44, 19)
+        lblBus1.Size = New Size(53, 23)
         lblBus1.TabIndex = 1
         lblBus1.Text = "Bus 1"
         ' 
@@ -61,7 +61,7 @@ Partial Class FrmBuses
         lblBus2.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         lblBus2.Location = New Point(20, 143)
         lblBus2.Name = "lblBus2"
-        lblBus2.Size = New Size(44, 19)
+        lblBus2.Size = New Size(53, 23)
         lblBus2.TabIndex = 2
         lblBus2.Text = "Bus 2"
         ' 
@@ -71,7 +71,7 @@ Partial Class FrmBuses
         lblBus3.Font = New Font("Segoe UI", 10F, FontStyle.Bold)
         lblBus3.Location = New Point(20, 211)
         lblBus3.Name = "lblBus3"
-        lblBus3.Size = New Size(44, 19)
+        lblBus3.Size = New Size(53, 23)
         lblBus3.TabIndex = 3
         lblBus3.Text = "Bus 3"
         ' 
@@ -145,6 +145,7 @@ Partial Class FrmBuses
         ' 
         lblGanador.BackColor = Color.White
         lblGanador.BorderStyle = BorderStyle.FixedSingle
+        lblGanador.Enabled = False
         lblGanador.Font = New Font("Segoe UI", 14F, FontStyle.Bold)
         lblGanador.ForeColor = Color.DarkGreen
         lblGanador.Location = New Point(20, 285)
@@ -156,7 +157,6 @@ Partial Class FrmBuses
         ' 
         ' btnIniciar
         ' 
-        btnIniciar.Enabled = False
         btnIniciar.Location = New Point(460, 350)
         btnIniciar.Name = "btnIniciar"
         btnIniciar.Size = New Size(130, 36)
@@ -173,9 +173,12 @@ Partial Class FrmBuses
         btnSalir.Text = "&Salir"
         btnSalir.UseVisualStyleBackColor = True
         ' 
+        ' tmrEstados
+        ' 
+        ' 
         ' FrmBuses
         ' 
-        AutoScaleDimensions = New SizeF(7F, 17F)
+        AutoScaleDimensions = New SizeF(9F, 23F)
         AutoScaleMode = AutoScaleMode.Font
         CancelButton = btnSalir
         ClientSize = New Size(760, 410)

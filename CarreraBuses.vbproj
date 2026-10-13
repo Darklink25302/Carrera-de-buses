@@ -30,9 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="FrmBuses.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Update="FrmBuses.vb" />
     <Compile Update="FrmBuses.Designer.vb">
       <DependentUpon>FrmBuses.vb</DependentUpon>
     </Compile>
