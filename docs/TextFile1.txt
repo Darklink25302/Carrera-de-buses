@@ -1,0 +1,47 @@
+﻿# Registro individual — Integrante 4
+
+**Nombre:** Maria Antonella Aleman Centeno
+**Usuario GitHub:** antonellaaleman129-oss
+**Módulo:** Cierre seguro y coordinación de pruebas
+
+---
+
+## Experimento 3 — Hilos de primer plano
+
+**Responsable:** Integrante 4
+**Fecha:** Pendiente
+**Rama o commit de prueba:** Pendiente
+**Cambio realizado:** Cambiar `IsBackground` de `True` a `False` en los hilos de los buses.
+**Pasos para reproducir:**
+1. Pendiente
+2. Pendiente
+
+**Resultado esperado:** Al cerrar la ventana durante una carrera, el proceso sigue vivo hasta que los hilos terminan.
+**Observación real:** Pendiente
+**Mensaje o captura:** Pendiente
+**Explicación con palabras del equipo:** Pendiente
+**Confirmación de restauración del código normal:** Pendiente
+
+---
+
+## Experimento 5 — Frecuencia del Timer
+
+**Responsable:** Integrante 4
+**Fecha:** Pendiente
+**Rama o commit de prueba:** Pendiente
+**Cambio realizado:** Modificar `Interval` de `tmrEstados` a 1000, luego a 20.
+**Pasos para reproducir:**
+1. Pendiente
+2. Pendiente
+
+**Resultado esperado:** Con Interval=1000 se pierden transiciones; con Interval=20 se ven más estados.
+**Observación real:** Pendiente
+**Mensaje o captura:** Pendiente
+**Explicación con palabras del equipo:** Pendiente
+**Confirmación de restauración del código normal:** Pendiente
+
+---
+
+## Notas adicionales
+
+(Lo que quieras anotar mientras trabajas)
