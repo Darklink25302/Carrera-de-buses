@@ -21,8 +21,8 @@ Partial Class FrmBuses
         End SyncLock
 
         If registrado Then
-            Me.Invoke(Sub()
-                          lblGanador.Text = "Ganador: Bus " & nombre
+            InvocarSiAbierto(Sub()
+                          lblGanador.Text = "Ganador: " & nombre
                       End Sub)
         End If
     End Sub

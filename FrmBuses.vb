@@ -1,7 +1,9 @@
 ﻿Public Class FrmBuses
     Private Sub FrmBuses_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        tmrEstados.Interval = 100
         tmrEstados.Stop()
         PrepararPantalla()
+        btnIniciar.Enabled = True
     End Sub
 
     Private Sub PrepararPantalla()

@@ -156,7 +156,7 @@ Partial Class FrmBuses
         ' 
         ' btnIniciar
         ' 
-        btnIniciar.Enabled = False
+        btnIniciar.Enabled = True
         btnIniciar.Location = New Point(460, 350)
         btnIniciar.Name = "btnIniciar"
         btnIniciar.Size = New Size(130, 36)
