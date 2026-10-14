@@ -22,7 +22,11 @@ Integrante 2. Pendiente. Falta probarlo con F5 y anotar el mensaje de error y la
 
 ## Experimento 3: usar IsBackground = False
 
-Integrante 4. Pendiente. Falta cerrar la ventana a mitad de la carrera y revisar si el proceso sigue abierto y cuándo termina.
+Integrante 4. Prueba del 13 de octubre de 2026.
+
+Se cambió `IsBackground` a `False` y se cerró la ventana a mitad de la carrera. La ventana cerró rápido y `CarreraBuses.exe` ya no aparecía en el Administrador de tareas.
+
+Aunque eran hilos de primer plano, la señal `CierreSolicitado()` hizo que salieran del recorrido al cerrar. Después de la prueba se dejó otra vez `IsBackground = True`.
 
 ## Experimento 4: quitar SyncLock
 
@@ -30,7 +34,11 @@ Integrante 3. Pendiente. Falta provocar el empate, contar cuántos buses se regi
 
 ## Experimento 5: cambiar el intervalo del Timer
 
-Integrante 4. Pendiente. Falta comparar los estados que se ven con intervalos de 1000 y 20 ms y explicar por qué casi no se ve `Running`.
+Integrante 4. Prueba del 13 de octubre de 2026.
+
+Con el intervalo en 1000 ms se vieron pocos cambios de estado. Con 20 ms las etiquetas cambiaron más rápido.
+
+El Timer revisa los estados cada cierto tiempo. Si un estado dura muy poco, puede cambiar antes de la siguiente revisión y no aparecer en la etiqueta. Al terminar se restauró el intervalo de 100 ms.
 
 ## Experimento 6: cambiar Invoke por BeginInvoke
 
