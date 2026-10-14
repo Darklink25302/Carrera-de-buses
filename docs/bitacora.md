@@ -26,7 +26,8 @@ Este documento reúne los seis experimentos realizados durante el proyecto.
 
 ## Experimento 3 — Hilos de primer plano
 **Responsable:** Integrante 4
-*(Pendiente — ver `docs/experimentos/integrante-4.md`)*
+observacion:probe con IsBackground+ false y cerrea mitad de carrera. La ventana cerro rapido y CarreraBuses.exe 
+no seguia en el administrador
 
 ---
 
@@ -38,7 +39,8 @@ Este documento reúne los seis experimentos realizados durante el proyecto.
 
 ## Experimento 5 — Frecuencia del Timer
 **Responsable:** Integrante 4
-*(Pendiente — ver `docs/experimentos/integrante-4.md`)*
+Observacion : Con interval = 1000 cambiaron pocos estados , con interval= 20 cambiaron mas rapido, el
+timer solo toma muestras,por eso estados cortos como running no se ven. restaure Interval = 100
 
 ---
 
