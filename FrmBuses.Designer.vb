@@ -156,7 +156,6 @@ Partial Class FrmBuses
         ' 
         ' btnIniciar
         ' 
-        btnIniciar.Enabled = False
         btnIniciar.Location = New Point(460, 350)
         btnIniciar.Name = "btnIniciar"
         btnIniciar.Size = New Size(130, 36)
@@ -172,6 +171,9 @@ Partial Class FrmBuses
         btnSalir.TabIndex = 12
         btnSalir.Text = "&Salir"
         btnSalir.UseVisualStyleBackColor = True
+        ' 
+        ' tmrEstados
+        ' 
         ' 
         ' FrmBuses
         ' 
