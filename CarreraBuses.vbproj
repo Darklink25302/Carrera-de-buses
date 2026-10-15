@@ -48,6 +48,7 @@
     </Compile>
     <Compile Update="FrmBuses.Monitor.vb">
       <DependentUpon>FrmBuses.vb</DependentUpon>
+      <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
 </Project>
